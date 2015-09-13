@@ -1,0 +1,68 @@
+/* this is comment */
+body {
+	font-family: helvetica, Arial, sans-serif;
+	background-color: rgba(255,110,10,0.2);
+	background-image: url(../images/house.jpg);
+	background-size: cover;
+	
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+	text-shadow: 0px 0px 2px black;
+	font-family: 'Signika', sans-serif;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px
+
+}
+
+h3{
+	margin-top: 0;
+	cursor: pointer;
+
+}
+.face {
+	display: block;
+	margin: 10px auto;
+	border: 3px dotted black;
+	border-radius: 50% 50%;
+}
+p,
+ul,
+ol {line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+
+.main{
+	max-width: 600px;
+	background-color: rgba(255,255,255, 0.9);
+	margin: 0 auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px 10px rgba(255,225,255,0.4)
+}
+.email{
+	max-width: 600px;
+	background-color: rgba(255,255,255, 0.9);
+	margin: 50px auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px 10px rgba(255,225,255,0.4)
+}
+a {
+	color: red;
+	text-decoration: none;
+	font-weight: red
+}
+
+a:hover {
+	color: purple;
+	text-decoration: underline
+}
